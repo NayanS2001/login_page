@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <form>
+        <h4>Personal Information</h4>
+       <div class="container" >
+       
+        
+        <div  class="left">
+            <label for="title"  >*Title</label><br>
+            <label for="fname" >*First Name</label><br>
+            <label for="mname">Middle Name</label><br>
+            <label for="lname">*Last Name</label><br>
+            <label for="dob" >*Date of Birth</label> <br>
+            <label for="pan" >PAN Number</label><br>
+            <label for="panc">Confirm PAN Number</label><br>
+            <label for="gst">GST Code</label><br>
+            <label for="namep">Name to be Printed on Cerificate</label><br>
+            <label for="pass">*Password</label>
+            <label for="pass">*Confirm Password</label>
+        </div>
+        <div class="right">
+            <select>
+                <option value="select">-Select-</option>
+                <option value="Mr.">Mr.</option>
+                <option value="Mrs.">Mrs.</option>
+                <option value="Ms.">Ms.</option>
+                <option value="Miss">Miss</option>
+            </select><br>      
+       <input type="text" id="fname" name="fname"required><br>
+       <input type="text" id="mname" name="mname"><br>
+       <input type="text" id="lname" name="lname"required><br>
+       <input type="date" id="dob" name="dob" required><br>
+       <input type="text" id="pan" name="pan">
+       <p><b>(You are required to provide PAN, if applicable to you. PAN will be mentioned on the invoice only if valid PAN is furnished at the time of registration.)</b></p>
+       <input type="text" id="panc" name="panc"><br>
+       <input type="text" id="gst" name="gst">
+       <p><b>(You are required to provide GSTIN, if applicable to you. GSTIN will be mentioned on the invoice only if valid GSTIN is furnished at the time of registration.)</b></p>
+       <input type="text" id="namesp" name="namep" required>
+       <br>  
+    <input type="password" id="pass" name="pass" minlength="12" required><br> 
+    <p><b>(Password must be atleast 12 characters & must be contain number and special character.)</b></p>
+    <input type="password" id="pass" name="pass" minlength="12" required><br>
+        </div>  
+</div>
+    </form>
+</body>
+</html>

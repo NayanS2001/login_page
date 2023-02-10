@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    border: 2px solid whitesmoke;
+  }
+  
+  .left {
+    width: 30%;
+    padding:20px;
+    
+  }
+  .right{
+    width: 50%;
+    padding:20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+ 
+  
+  
